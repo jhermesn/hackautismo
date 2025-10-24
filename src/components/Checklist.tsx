@@ -15,10 +15,10 @@ export function Checklist({ items, checked, onToggle, totalScore, onShowResult }
       <div className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 border-4 border-yellow-200 shadow-yellow-100/50">
         <h2 className="heading-display text-3xl md:text-4xl font-bold mb-8 text-center text-gray-800">
           <Award className="inline-block w-8 h-8 text-yellow-500 mr-2" />
-          Checklist da sala inclusiva
+          Checklist de IA para Educação Inclusiva
         </h2>
         <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Itens abaixo são placeholders para você personalizar conforme sua realidade escolar.
+          Selecione as ferramentas e métodos de IA que você já usa para apoiar práticas de educação inclusiva na sua escola.
         </p>
         <div className="grid md:grid-cols-2 gap-4 mb-8">
           {items.map((item) => (

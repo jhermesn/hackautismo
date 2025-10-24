@@ -5,6 +5,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: 'https://jhermesn.dev/hackautismo/',
   plugins: [react()],
+  publicDir: 'src/public',
   build: {
     outDir: 'docs',
     emptyOutDir: true,

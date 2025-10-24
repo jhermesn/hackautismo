@@ -51,10 +51,10 @@ export function Hero() {
         <div>
           <h2 className="heading-display text-3xl md:text-4xl font-bold mb-6 text-gray-800 text-center">
             <Sparkles className="inline-block w-8 h-8 text-yellow-500 mr-2" />
-            Sala de aula inclusiva
+            IAEI: IA para Educação Inclusiva
           </h2>
           <p className="text-gray-600 mb-8 text-justify max-w-3xl mx-auto leading-relaxed">
-            Preparar o ambiente, a rotina e a comunicação apoia a aprendizagem e o bem-estar de todos os estudantes, inclusive os autistas.
+            Use inteligências artificiais para fortalecer práticas inclusivas. O IAEI traz um checklist de ferramentas e métodos de IA que você já usa (ou pode usar) para apoiar estudantes, inclusive autistas.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
