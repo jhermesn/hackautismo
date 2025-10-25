@@ -4,6 +4,8 @@ import { Hero } from './components/Hero';
 import { Checklist } from './components/Checklist';
 import { Result } from './components/Result';
 import { Footer } from './components/Footer';
+import { FullGuidelines } from './components/FullGuidelines';
+import { TopTools } from './components/TopTools';
 import { checklistData } from './data/checklist';
 import { getScoreMessage } from './utils/score';
 import type { ChecklistItem } from './types/checklist';
@@ -45,6 +47,10 @@ export default function AutismAwarenessLanding() {
 
       <Header />
       <Hero />
+
+      <FullGuidelines />
+
+      <TopTools />
 
       <Checklist
         items={checklistData}
