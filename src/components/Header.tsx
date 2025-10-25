@@ -9,7 +9,7 @@ export function Header() {
           </h1>
         </div>
         <p className="text-justify mt-4 text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Inclui um checklist de ferramentas e métodos de IA que você já usa para educação inclusiva.
+          Guia com diretrizes e um checklist prático para fortalecer a educação inclusiva.
         </p>
       </div>
     </header>
